@@ -1,8 +1,8 @@
 <template>
     <div class="form-group">
         <label :for="id" class="form-lable">{{ titulo }}</label>
+        <i :id="idHelp" :title="textoHelp" data-toggle="tooltip" data-placement="right" class="bi bi-question-circle" style="cursor: pointer;"></i>
         <slot></slot>
-        <div :id="idHelp" class="form-text text-muted">{{ textoHelp }}</div>
     </div>
 </template>
 

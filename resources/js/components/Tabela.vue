@@ -48,7 +48,7 @@ export default {
                 let dadosFiltrados = []
 
                 // percorrendo os dados filtrando cada item e seu respectivo campo
-                this.dados.map((item, chave) => {
+                this.dados.data.map((item, chave) => {
 
                     // criando variavel para armazer o item (campo desejado)
                     let itemFiltrado = {}
